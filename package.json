@@ -1,7 +1,7 @@
 {
-  "name": "thelounge-theme-ianon",
-  "version": "2.6.0",
-  "description": "iAnon thelounge theme",
+  "name": "thelounge-theme-ianon-allbubbles",
+  "version": "1",
+  "description": "iAnon thelounge theme. Now with more bubbles!",
   "main": "package.json",
   "scripts": {
     "scss": "node-sass -w ./src/ianon.scss ianon.css",
@@ -9,23 +9,23 @@
     "format": "stylelint --fix ianon.css"
   },
   "thelounge": {
-    "name": "iAnon",
+    "name": "iAnon-AllBubbles",
     "type": "theme",
     "css": "ianon.css",
     "themeColor": "#202126"
   },
   "license": "MIT",
-  "homepage": "https://github.com/voaii/thelounge-theme-ianon",
+  "homepage": "https://github.com/williestwonka/thelounge-theme-ianon-allbubbles",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voaii/thelounge-theme-ianon.git"
+    "url": "git+https://github.com/williestwonka/thelounge-theme-ianon-allbubbles.git"
   },
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/voaii/thelounge-theme-ianon/issues"
+    "url": "https://github.com/williestwonka/thelounge-theme-ianon-allbubbles/issues"
   },
   "devDependencies": {
     "node-sass": "^9.0.0",
